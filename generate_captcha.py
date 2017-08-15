@@ -6,8 +6,6 @@ from argparse import ArgumentParser
 
 from captcha.image import ImageCaptcha
 
-FONT = os.path.join(os.path.dirname(__file__), 'fonts', 'EuropeUnderground_black.ttf')
-#FONT = os.path.join(os.path.dirname(__file__), 'fonts', 'EuropeUnderground_light.ttf')
 DEFAULT_WIDTH = 160
 DEFAULT_HEIGHT = 40 
 
